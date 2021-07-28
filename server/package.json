@@ -1,0 +1,23 @@
+{
+  "name": "seylabs-BE",
+  "version": "1.0.0",
+  "description": "'Seylabs backend'",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": "https://github.com/devcoder111/seylabs-BE.git",
+  "author": "Nick_Munene <nickmunene101@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.15",
+    "nodemailer": "^6.6.2"
+  }
+}
